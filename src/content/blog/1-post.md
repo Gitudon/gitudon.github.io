@@ -1,8 +1,12 @@
 ---
-title: ''
-description: ''
-pubDate: ''
-heroImage: '/Udon-Homepage/'
+title: 'はじめの一歩'
+description: '初投稿'
+pubDate: 'Dec 27 2024'
+heroImage: ''
 ---
 
-aaaaaaaaaaa
+## 個人サイトの完成
+
+Astro.jsを使っていい感じに作ることができました。
+
+ここからちょくちょくデザインなどを変えてよりよいものにしていく予定です。

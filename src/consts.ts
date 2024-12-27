@@ -7,3 +7,4 @@ export const TWITTER_URL = 'https://twitter.com/KoYuki_UdododoN';
 export const GITHUB_URL = 'https://github.com/Gitudon';
 export const EMAIL_ADDRESS = 'oniku.udon.029@gmail.com'
 export const BASE_URL = '/Udon-Homepage/';
+export const TEST_IMG = '/Udon-Homepage/blog-placeholder-2.jpg'
