@@ -93,12 +93,13 @@ const posts = (await getCollection('blog')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={import.meta.env.DEV ? `blog/${post.id}/` : `${post.id}/`}>
+								<a href={`blog/${post.id}/`}>
 									<img width={720} height={360} src={post.data.heroImage || TEST_IMG} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
+									<p>{post.id}</p>
 								</a>
 							</li>
 						))
