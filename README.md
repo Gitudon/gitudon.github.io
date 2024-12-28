@@ -2,7 +2,7 @@
 
 とりあえずGitHub Pagesで公開する。
 
-https://gitudon.github.io/Udon-Homepage/
+https://gitudon.github.io/
 
 ## 予定
 
