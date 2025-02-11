@@ -20,7 +20,8 @@ jobs:
         uses: withastro/action@v1
       - name: Upload artifact
         uses: actions/upload-artifact@v4 # 更新されたバージョンを使用
-
+        with:
+          include-hidden-files: true
   deploy:
     needs: build
     runs-on: ubuntu-latest
