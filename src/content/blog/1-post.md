@@ -2,7 +2,7 @@
 title: 'はじめの一歩'
 description: '初投稿'
 pubDate: 'Dec 27 2024'
-heroImage: ''
+heroImage: '/blog-heroimages/hajime.png'
 ---
 
 ## 個人サイトの完成

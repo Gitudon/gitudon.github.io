@@ -60,19 +60,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 3em;
 }
 h2 {
-	font-size: 1em;
+	font-size: 1.75em;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.5em;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.25em;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 strong,
 b {
@@ -84,10 +84,10 @@ a {
 a:hover {
 	color: var(--accent);
 }
-/* p {
-	margin-bottom: 1em;
+p {
+	font-size: 1em;
 }
-.prose p {
+/* .prose p {
 	margin-bottom: 2em;
 } */
 textarea {
