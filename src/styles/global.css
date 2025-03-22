@@ -29,6 +29,9 @@
 	font-style: normal;
 	font-display: swap;
 }
+head {
+	height: 15%;
+}
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
@@ -41,13 +44,14 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
+	display: block;
 }
 main {
-	width: 720px;
+	width: 60%;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
-	padding-top: 5em;
+	padding: 2em;
+	display: block;
 }
 h1,
 h2,

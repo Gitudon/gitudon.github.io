@@ -36,11 +36,12 @@ import { SITE_TITLE, TWITTER_URL, GITHUB_URL} from '../consts';
 <style>
 header {
     margin: 0;
-    padding: 0 1em;
+    padding: 0;
     background: #9999ee;
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	position: fixed;
-	width: 98%;
+	position: sticky;
+	width: 100%;
+	z-index: 1000;
 }
 h2 {
     margin: 0;
