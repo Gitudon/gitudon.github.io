@@ -32,38 +32,53 @@ import {
 		<Header />
 		<main>
 			<h1 class="title">Udonのホームページ</h1>
-			<p>
-				こんにちは。Udonと申します。<br />
-				このページは、私の活動を紹介するために作成されました。
-			</p>
-			<h2>掲載しているもの(予定含む)</h2>
+			<p>こんにちは。Udonと申します。</p>
+			<h3>掲載しているもの</h3>
 			<ul>
 				<li><a href="/about">自己紹介</a></li>
-				<li><a href="/blog">ブログ</a></li>
+				<li>
+					<a href="/blog">ブログ</a>
+					<ul>
+						<li>個人的な話題や成果物の話を書きます</li>
+					</ul>
+				</li>
+				<li>経歴(準備中)</li>
 			</ul>
-			<h2>リンク集</h2>
+			<h3>リンク集</h3>
 			<ul>
 				<li><a href={TWITTER_URL} target="_blank">Twitter(現X)</a></li>
 				<li><a href={GITHUB_URL} target="_blank">GitHub</a></li>
 				<li>
 					<a href="https://htn-udon.hatenablog.com/">はてなブログ</a>
+					<ul>
+						<li>趣味や大学の話を書いています</li>
+					</ul>
 				</li>
-				<li><a href="https://qiita.com/Q_udon">Qiita</a></li>
-				<li><a href="https://zenn.dev/z_udon">Zenn</a></li>
+				<li>
+					<a href="https://qiita.com/Q_udon">Qiita</a>
+					<ul>
+						<li>広く公開できそうな技術の話を書いています</li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://zenn.dev/z_udon">Zenn</a>
+					<ul>
+						<li>ほぼ更新していないです</li>
+					</ul>
+				</li>
 				<li><a href="https://atcoder.jp/users/ccc_udon">AtCoder</a></li>
 				<li><a href="https://www.youtube.com/@udon1197">YouTube</a></li>
 			</ul>
-			<h2>このページの技術スタック</h2>
+			<h3>このページの技術スタック</h3>
 			<ul>
 				<li>
 					<a href="https://astro.build/" target="_blank">Astro.js</a>
 				</li>
-				<li>HTML</li>
-				<li>CSS</li>
+				<li>HTML/CSS</li>
 				<li>JavaScript</li>
 				<li>TypeScript</li>
 			</ul>
-			<h2>連絡先</h2>
+			<h3>連絡先</h3>
 			<ul>
 				<li>
 					<a href={TWITTER_URL} target="_blank">Twitter(現X)-DM</a>
