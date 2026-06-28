@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 import {
 	SITE_TITLE,
 	SITE_DESCRIPTION,
@@ -42,7 +43,7 @@ import {
 						<li>個人的な話題や成果物の話を書きます</li>
 					</ul>
 				</li>
-				<li>経歴(準備中)</li>
+				<li><a href="/career">経歴</a></li>
 			</ul>
 			<h3>リンク集</h3>
 			<ul>
@@ -66,8 +67,22 @@ import {
 						<li>ほぼ更新していないです</li>
 					</ul>
 				</li>
-				<li><a href="https://atcoder.jp/users/ccc_udon">AtCoder</a></li>
-				<li><a href="https://www.youtube.com/@udon1197">YouTube</a></li>
+				<li>
+					<a href="https://atcoder.jp/users/ccc_udon">AtCoder</a>
+					<ul>
+						<li>
+							茶色(<FormattedDate
+								date={new Date("2026-06-28")}
+							/>時点)
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/@udon1197">YouTube</a>
+					<ul>
+						<li>MAD動画などを投稿しています</li>
+					</ul>
+				</li>
 			</ul>
 			<h3>このページの技術スタック</h3>
 			<ul>

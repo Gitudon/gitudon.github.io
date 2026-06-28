@@ -1,0 +1,112 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+---
+
+<!doctype html>
+<html lang="ja">
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .title {
+            font-size: 2.5em;
+        }
+        p {
+            margin-bottom: 1em;
+            padding: 0;
+        }
+    </style>
+
+    <BaseHead title="Udon's Career" description="Udon's Career Page" />
+
+    <body>
+        <Header />
+        <main>
+            <h1 class="title">経歴</h1>
+            <p>このページではUdonの経歴などをまとめています。</p>
+            <p>最終更新: <FormattedDate date={new Date("2026-06-28")} /></p>
+            <ol>
+                <li><a href="#school">学歴</a></li>
+                <li><a href="#certificate">資格</a></li>
+                <li><a href="#work">職歴</a></li>
+            </ol>
+            <h3 id="school">学歴</h3>
+            <ul>
+                <li>
+                    2019-04<br />
+                    <a
+                        href="https://www.metro.ed.jp/tachikawa-h/"
+                        target="_blank">東京都立立川高等学校普通科</a
+                    > 入学
+                </li>
+                <li>
+                    2022-03<br />
+                    東京都立立川高等学校普通科 卒業
+                </li>
+                <li>
+                    2022-04<br />
+                    <a href="https://www.uec.ac.jp/" target="_blank"
+                        >国立大学法人電気通信大学情報理工学域</a
+                    > 入学
+                </li>
+                <li>
+                    2023-10<br />
+                    <a
+                        href="https://www.uec.ac.jp/education/undergraduate/cluster2/program2.html"
+                        target="_blank"
+                        >国立大学法人電気通信大学情報理工学域Ⅱ類情報通信工学プログラム</a
+                    > 進学
+                </li>
+                <li>
+                    2025-04<br />
+                    <a href="http://www.quest.lab.uec.ac.jp/" target="_blank"
+                        >電気通信大学小川研究室</a
+                    > 配属
+                </li>
+                <li>
+                    2026-03<br />
+                    国立大学法人電気通信大学情報理工学域Ⅱ類情報通信工学プログラム
+                    卒業
+                </li>
+                <li>
+                    2026-04<br />
+                    <a
+                        href="https://www.uec.ac.jp/education/graduate/i/"
+                        target="_blank"
+                        >電気通信大学大学院情報・ネットワーク工学専攻</a
+                    > 入学
+                </li>
+            </ul>
+            <h3 id="certificate">資格</h3>
+            <ul>
+                <li>
+                    2024-05<br />
+                    基本情報技術者
+                </li>
+                <li>
+                    2024-12<br />
+                    応用情報技術者
+                </li>
+            </ul>
+            <h3 id="work">職歴</h3>
+            <ul>
+                <li>
+                    2022-08~<br />
+                    <a href="https://www.ioi-jp.org/" target="_blank"
+                        >一般社団法人情報オリンピック日本委員会</a
+                    > 入門講座/夏季・春季セミナーチューター
+                </li>
+                <li>
+                    2025-04~<br />
+                    <a href="https://rooter.jp/" target="_blank"
+                        >株式会社ルーター</a
+                    > 学生インターン
+                </li>
+            </ul>
+        </main>
+        <Footer />
+    </body>
+</html>
