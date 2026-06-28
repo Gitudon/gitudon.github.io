@@ -1,17 +1,19 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import { SITE_DESCRIPTION, TEST_IMG } from "../consts";
 
-type Props = CollectionEntry<'blog'>['data'];
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+type Props = CollectionEntry<"blog">["data"];
+const { title, description, category, pubDate, updatedDate, heroImage } =
+	Astro.props;
 ---
 
 <html lang="ja">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description || SITE_DESCRIPTION} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -24,6 +26,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.hero-image img {
 				display: block;
+				width: 100%;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
@@ -42,13 +45,14 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				font-size: 1.5em;
 			}
 			.date {
 				margin-bottom: 0.5em;
 				color: rgb(var(--gray));
 			}
-			.last-updated-on {
-				font-style: italic;
+			p {
+				font-color: #000000;
 			}
 		</style>
 	</head>
@@ -58,17 +62,19 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
+					{(<img src={heroImage || TEST_IMG} alt="" />)}
 				</div>
 				<div class="prose">
 					<div class="title">
 						<h1>{title}</h1>
+						<p>Category: {category || "その他"}</p>
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
 									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
+										( Last updated on{" "}
+										<FormattedDate date={updatedDate} />)
 									</div>
 								)
 							}
