@@ -11,7 +11,8 @@ export async function getStaticPaths() {
 	}));
 }
 type Props = CollectionEntry<"blog">;
-const article: Props = Astro.props;
+const { post } = Astro.props;
+const article = post;
 const { Content } = await render(article);
 ---
 
