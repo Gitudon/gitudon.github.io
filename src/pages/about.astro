@@ -1,17 +1,22 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from "../layouts/BlogPost.astro";
 ---
 
 <Layout
 	title="About Me"
-	description="About Udon"
-	pubDate={new Date('2024-12-27')}
+	category="自己紹介"
+	description="About Me"
+	pubDate={new Date("2024-12-27")}
+	updatedDate={new Date("2026-06-28")}
 	heroImage="/pasoko.png"
 >
 	<h2>自己紹介</h2>
-	<p><b>Udon</b>と申します。<a href="https://www.uec.ac.jp/" target="_blank">電気通信大学</a>で情報系の大学生をやっています。<br>
-	プログラミングが好きなので、色々作ったりしています。<br>
-	どうぞよろしくお願いします。
+	<p>
+		<b>Udon</b>と申します。<a href="https://www.uec.ac.jp/" target="_blank"
+			>電気通信大学</a
+		>で情報系の大学生をやっています。<br />
+		プログラミングが好きなので、色々作ったりしています。<br />
+		どうぞよろしくお願いします。
 	</p>
 	<h2>資格</h2>
 	<ul>
@@ -19,10 +24,14 @@ import Layout from '../layouts/BlogPost.astro';
 		<li>応用情報技術者試験：2024-12</li>
 	</ul>
 	<h2>扱える言語</h2>
-	<p>※<a href="https://github.com/Gitudon" target="_blank">ここ</a>も参照してください。</p>
+	<p>
+		※<a href="https://github.com/Gitudon" target="_blank">ここ</a
+		>も参照してください。
+	</p>
 	<ul>
 		<li>HTML/CSS</li>
 		<li>Python</li>
+		<li>Ruby</li>
 		<li>C</li>
 		<li>C++</li>
 		<li>TypeScript</li>
@@ -32,18 +41,19 @@ import Layout from '../layouts/BlogPost.astro';
 	<ul>
 		<li>プログラミング・開発</li>
 		<li>ゲーム</li>
-			<ul>
-				<li>マイクラ</li>
-				<li>東方</li>
-				<li>音ゲー(maimai)</li>
-			</ul>
+		<ul>
+			<li>マイクラ</li>
+			<li>東方</li>
+			<li>音ゲー(maimai)</li>
+		</ul>
 		<li>映画鑑賞</li>
 		<li>特撮</li>
-			<ul>
-				<li>ウルトラマン</li>
-				<li>仮面ライダー</li>
-				<li>スーパー戦隊</li>
-			</ul>
+		<ul>
+			<li>ウルトラマン</li>
+			<li>仮面ライダー</li>
+			<li>スーパー戦隊</li>
+			<li>Project R.E.D.</li>
+		</ul>
 		<li>カラオケ</li>
 	</ul>
 </Layout>

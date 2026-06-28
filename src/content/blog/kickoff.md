@@ -1,7 +1,9 @@
 ---
 title: 'はじめの一歩'
-description: '初投稿'
-pubDate: 'Dec 27 2024'
+description: ''
+category: 'その他'
+pubDate: '2024-12-27'
+updatedDate: '2026-06-28'
 heroImage: '/blog-heroimages/hajime.png'
 ---
 
