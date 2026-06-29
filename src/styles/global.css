@@ -16,6 +16,12 @@
 		0 16px 32px rgba(var(--gray), 33%);
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 @font-face {
 	font-family: 'Atkinson';
 	src: url('/fonts/atkinson-regular.woff') format('woff');
@@ -55,7 +61,7 @@ body {
 
 main {
 	width: 70%;
-	max-width: calc(100% - 2em);
+	max-width: 100%;
 	margin: auto;
 	padding: 2em;
 	display: block;
