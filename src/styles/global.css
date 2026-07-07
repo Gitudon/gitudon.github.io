@@ -60,11 +60,18 @@ body {
 }
 
 main {
-	width: 70%;
+	width: 90%;
 	max-width: 100%;
 	margin: auto;
 	padding: 2em;
 	display: block;
+}
+
+main iframe {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	border-radius: 8px;
 }
 
 h1,

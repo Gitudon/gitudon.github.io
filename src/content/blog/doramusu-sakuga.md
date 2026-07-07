@@ -55,7 +55,7 @@ heroImage: '/blog-heroimages/doramusu.png'
 
 ![sakuga_5](/blog-images/doramusu-sakuga/sakuga_5.png)
 
-彩度が高い。ちょっと作画2に似ている(同じかも？)。
+キラキラしている。
 
 動画はこちら。
 
@@ -65,8 +65,7 @@ heroImage: '/blog-heroimages/doramusu.png'
 
 ![sakuga_6](/blog-images/doramusu-sakuga/sakuga_6.png)
 
-明るさが他よりも高い気がする。
-
+明るさが他よりも高い気がする。作画1に似ているから同じかもしれないです。
 動画はこちら。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x--df83FaP8?si=YKCj7kekxJjZbfEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
