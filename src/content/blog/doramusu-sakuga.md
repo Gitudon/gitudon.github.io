@@ -3,6 +3,7 @@ title: 'ドラゴン娘になりたくないっ！ 作画まとめ'
 description: ''
 category: 'アニメ'
 pubDate: '2026-06-29'
+updatedDate: '2026-07-25'
 heroImage: '/blog-heroimages/doramusu.png'
 ---
 
