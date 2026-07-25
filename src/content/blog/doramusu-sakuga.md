@@ -81,6 +81,16 @@ heroImage: '/blog-heroimages/doramusu.png'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_D1dqnNVM88?si=1kh0ggF2e5_VGqpq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### 作画8
+
+![sakuga_8](/blog-images/doramusu-sakuga/sakuga_8.png)
+
+小顔な感じ。
+
+動画はこちら。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3tQ0256Yds?si=IEe6_iKz377ws72x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### おわりに
 
 サムネと本編で作画が変わっているものもあったのでまとめるのが大変でした。なんか動画の中で作画が切り替わる事もあったみたいです。サムネだと作画1をよく見るような気がします。
